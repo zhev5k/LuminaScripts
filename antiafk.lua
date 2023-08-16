@@ -70,15 +70,15 @@ end)
 
 UICorner.Parent = Activate
 
-OpenClose.Name = "Open/Close"
+OpenClose.Name = "Open / Close"
 OpenClose.Parent = Rice
-OpenClose.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-OpenClose.Position = UDim2.new(0.353924811, 0, 0.921739101, 0)
-OpenClose.Size = UDim2.new(0, 247, 0, 35)
-OpenClose.Font = Enum.Font.GothamBold
-OpenClose.Text = "Open/Close"
+OpenClose.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+OpenClose.Position = UDim2.new(0.402, 0, 0.877, 0)
+OpenClose.Size = UDim2.new(0, 150, 0, 40)
+OpenClose.Font = Enum.Font.Sorponch
+OpenClose.Text = "Open / Close"
 OpenClose.TextColor3 = Color3.fromRGB(255, 255, 255)
-OpenClose.TextSize = 14.000
+OpenClose.TextSize = 27.000
 
 UICorner_2.Parent = OpenClose
 
