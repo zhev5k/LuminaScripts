@@ -253,7 +253,7 @@ ContextActionService:BindCoreActionAtPriority(
 	openemotes,
 	true,
 	2001,
-	Enum.KeyCode.Comma
+	Enum.KeyCode.K
 )
 
 local inputconnect
@@ -574,3 +574,5 @@ if LocalPlayer.Character then
 	CharacterAdded(LocalPlayer.Character)
 end
 LocalPlayer.CharacterAdded:Connect(CharacterAdded)
+
+ScreenGui.Enabled
