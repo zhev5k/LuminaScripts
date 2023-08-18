@@ -1,3 +1,6 @@
+--keybind to open is comma
+--made by Gi#7331
+
 local ContextActionService = game:GetService("ContextActionService")
 local HttpService = game:GetService("HttpService")
 local GuiService = game:GetService("GuiService")
@@ -206,7 +209,7 @@ SearchBar.AnchorPoint = Vector2.new(0.5, 0.5)
 SearchBar.Position = UDim2.new(0.5, 0, -0.075, 0)
 SearchBar.Size = UDim2.new(0.55, 0, 0.1, 0)
 SearchBar.TextScaled = true
-SearchBar.PlaceholderText = "Special for Lumina Hub"
+SearchBar.PlaceholderText = "Search"
 SearchBar.TextColor3 = Color3.new(1, 1, 1)
 SearchBar.BackgroundColor3 = Color3.new(0, 0, 0)
 SearchBar.BackgroundTransparency = 0.3
@@ -250,7 +253,7 @@ ContextActionService:BindCoreActionAtPriority(
 	openemotes,
 	true,
 	2001,
-	Enum.KeyCode.K
+	Enum.KeyCode.L
 )
 
 local inputconnect
@@ -571,6 +574,3 @@ if LocalPlayer.Character then
 	CharacterAdded(LocalPlayer.Character)
 end
 LocalPlayer.CharacterAdded:Connect(CharacterAdded)
-
-ScreenGui.Enabled = true
-
