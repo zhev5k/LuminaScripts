@@ -1,6 +1,3 @@
---keybind to open is comma
---made by Gi#7331
-
 local ContextActionService = game:GetService("ContextActionService")
 local HttpService = game:GetService("HttpService")
 local GuiService = game:GetService("GuiService")
@@ -575,4 +572,5 @@ if LocalPlayer.Character then
 end
 LocalPlayer.CharacterAdded:Connect(CharacterAdded)
 
-ScreenGui.Enabled
+ScreenGui.Enabled = true
+
